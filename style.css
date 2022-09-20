@@ -71,7 +71,7 @@ section {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url(../img/background.jpg);
+  /* background: url(../img/background.jpg); */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -420,5 +420,27 @@ form textarea {
   :root {
     --h1-font: 3.7rem;
     --h2-font: 2.7rem;
+  }
+}
+
+@media (max-width: 740px) {
+  body {
+    width: 455px;
+  }
+  .home-text h1 {
+    margin: 0px;
+    font-size: 3rem;
+    line-height: 44px;
+    /* font-weight: bold; */
+  }
+  .about-img .me {
+    height: 385px;
+    width: 277px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 13px 20px;
+    margin-bottom: 8px;
+    font-size: 18px;
   }
 }
